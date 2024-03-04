@@ -10,7 +10,7 @@
 namespace blackbone
 {
 
-using ptr_t = uint64_t;     // Generic pointer in remote process
+using ptr_t = uintptr_t;     // Generic pointer in remote process
 using module_t = ptr_t;  // Module base pointer
 
 // Type of barrier
